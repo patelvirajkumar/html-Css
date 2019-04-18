@@ -1,0 +1,170 @@
+
+ /*------------------------EVENTS PAGE CSS --------------------------*/
+
+/*-------------------------_SECTION 2 -----------------------------------*/
+
+.wrapper-events
+{
+	width: 80%;
+ margin: 0 auto;
+}
+.event-container
+{
+    display: flex;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.event
+{
+    flex: 1;
+
+  
+}
+.event h2
+{
+    text-align: left;
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+	margin-left: 0 auto;
+  
+}
+.event p
+{
+    margin: 20px;
+    font-size: 20px;
+  
+}
+.event-img
+{
+    flex: 1;
+   margin: 20px;	
+	
+}
+
+
+.next-month
+{
+  
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.next-month h1
+{
+      font-size: 60px;
+    font-weight: 900;
+    font-family:  Impact, Charcoal, sans-serif;
+    text-align: center;
+}
+
+.blink-text
+{
+    animation: blink .9s infinite;
+    color: cadetblue;
+    
+}
+.event-container img
+{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+  #mobile{display: none;}
+#desktop{display: inline;}
+
+@media only screen and (max-width:1024px)
+{
+ 
+  .wrapper-events
+    {margin-bottom: 50px;
+    width: auto;}
+     .event h2
+{
+    font-size: 30px;
+    text-shadow: 2px 2px white;
+  
+}
+     .event p
+{
+    margin: 20px;
+    font-size: 15px;
+  
+}
+	.event-container img
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+   
+}
+
+@media only all and (max-width:768px){
+   
+    .event h2
+{
+    font-size: 25px;
+    text-shadow: 2px 2px white;
+  
+}
+
+    .event p
+{
+    margin: 20px;
+    font-size: 15px;
+  
+}
+    .event-img
+{
+   
+    margin-top: 10px;
+
+}
+    .event-container img
+{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+    .event-container
+    {
+        margin-bottom: 10px;
+    }
+        .wrapper-events
+    {   width: auto;
+        margin: 0px;
+        padding: 0;
+       
+      
+      
+        
+    }
+  .wrapper-events  .blink-text
+    {
+        line-height: 70px;
+    }
+    
+    
+        #mobile{display:inline;}
+        #desktop{display:none; }
+}
+
+
+@keyframes blink
+    {
+        0%
+        {
+            color: royalblue;
+        }
+        25%
+        {
+            color: transparent;
+        }
+        100%
+        {
+            color: royalblue;
+        }
+    }

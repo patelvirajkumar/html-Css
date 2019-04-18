@@ -1,0 +1,82 @@
+
+/*common*/
+
+.dinner-header h2
+    {    
+    width: 100%;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        background-color: #f2f2f2;
+       
+        
+        
+    }
+  .price-header
+{
+    font-size: 30px;
+    color: brown;
+}
+.dinner-header table
+{
+    margin-left: 37.8%;
+	font-size: 30px;
+}
+td,th
+    {
+    text-align: center;
+        padding-left: 20px;
+        padding: 10px;
+       
+    }
+
+
+ #mobile{display: none;}
+#desktop{display: inline;}
+
+@media only screen and (max-width:1024px)
+{
+ 
+       .wrapper-breakfast
+    {
+        width: auto;
+        margin-bottom: 50px;
+        margin: 0 auto;
+        padding: 0;
+    }
+	.dinner-header table
+	{
+		margin-left: 0 auto;
+		line-height: .5em;
+	}
+   td,th
+    {
+    margin-left: 0 auto;
+		font-size: 20px;
+       
+    }
+}
+
+@media only all and (max-width:768px){
+   
+
+
+
+     .wrapper-dinner
+    {   width: auto;
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    .dinner-header table
+    {
+       margin-left: 0 auto;
+        line-height: 5px;
+    font-size: 1.5em;
+    }
+  
+       
+        #mobile{display:inline;}
+        #desktop{display:none; }
+}

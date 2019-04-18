@@ -1,0 +1,24 @@
+
+
+  
+ /*------------------------BLOG PAGE CSS --------------------------*/
+
+/*-------------------------_SECTION 2 -----------------------------------*/
+
+.blog-page
+{
+    height: 600px;
+    padding-top: 50px;
+    
+}
+.blog-page h1
+{
+    
+   padding-left: 60px;
+    
+}
+.blog-page span
+{
+    color: red;
+    font-weight: bold;
+}

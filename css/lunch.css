@@ -1,0 +1,94 @@
+ 
+ /*------------------------LUNCH PAGE CSS --------------------------*/
+
+/*-------------------------_SECTION 2 -----------------------------------*/
+
+
+
+  .price-header-lunch
+{
+    font-size: 30px;
+    color: brown;
+    padding-left: 20px;
+}
+
+/*common*/
+.lunch-header h2
+    {    
+    width: 100%;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        background-color: #f2f2f2;
+       
+        
+        
+    }
+  .price-header
+{
+    font-size: 30px;
+    color: brown;
+}
+.lunch-header table
+{
+    margin-left: 37.8%;
+}
+td,th
+    {
+    text-align: center;
+        padding-left: 20px;
+        padding: 10px;
+		font-size: 30px;
+       
+    }
+
+
+ #mobile{display: none;}
+#desktop{display: inline;}
+
+@media only screen and (max-width:1024px)
+{
+ 
+       .wrapper-breakfast
+    {
+        width: auto;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+	.lunch-header table
+{
+    margin-left: 0 auto;
+}
+td,th
+    {
+    margin-left: 0 auto;
+		font-size: 20px;
+       
+    }
+   
+}
+
+@media only all and (max-width:768px){
+   
+
+
+
+     .wrapper-lunch
+    {   width: auto;
+        margin: 0;
+        padding: 0;
+        line-height: 50px;
+        margin-top: 0px;
+    }
+    .lunch-header table
+    {
+        margin-left: 0 auto;
+		font-size: 1.5em;
+		line-height: 1em;
+    
+    }
+     
+       
+        #mobile{display:inline;}
+        #desktop{display:none; }
+}

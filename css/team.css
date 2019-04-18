@@ -1,0 +1,27 @@
+
+.container
+{
+    display: flex;
+    margin: 50px;
+    background-color: #f2f2f2;
+    
+}
+
+.team-layout
+{
+    font-size: 20px;
+    margin: 50px;
+    flex: 1;
+}
+
+
+.team-image
+{
+    flex: 1;
+    margin: 50px;
+    
+}
+.team-image img
+{
+    border-radius: 20px;
+}

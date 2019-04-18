@@ -1,0 +1,16 @@
+.mySlides 
+{
+    display:none;
+}
+.container
+{
+    height: 600px;
+    width: 100%;
+    margin: 0 auto;
+    
+    background-color: black;
+}
+.container img{
+    margin: 0 auto;
+    
+}

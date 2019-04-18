@@ -1,0 +1,164 @@
+
+/*------------------------NIGHTS LIFE PAGE CSS --------------------------*/
+
+/*-------------------------_SECTION 2 -----------------------------------*/
+ .wrapper-night
+    {
+        width: 100%;
+        margin: 0 auto;
+		text-align-last: center;
+    }
+.index-nightlife
+{
+	margin-left: 0 auto;
+    height: 500px;
+    width: 40%;
+    background:url(../Images/drink-1.jpg);
+    margin:15px auto;
+    animation: slide 20s infinite;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+	
+    
+    
+}
+
+
+.drink-header h3
+{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 70px;
+    font-family: Impact, Charcoal, sans-serif;
+    color: sandybrown;
+    text-shadow: 3px 3px black;
+}
+
+.drink-header a
+{
+    text-align: center;
+    font-size: 20px;
+    font-family:  Impact, Charcoal, sans-serif;
+    color: white;
+    margin-left: 25%;
+    background-color: black;
+    padding: 10px;
+    
+
+}
+
+/*-------------------------_SECTION 3 -----------------------------------*/
+.bottle h2
+    {    
+    width: 100%;
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        background-color: #f2f2f2;
+       
+        
+        
+    }
+  .price-header
+{
+    font-size: 30px;
+    color: brown;
+}
+.bottle table
+{
+    margin-left: 40%;
+}
+td,th
+    {
+    text-align: center;
+        padding-left: 20px;
+        padding: 10px;
+		font-size: 30px;
+       
+    }
+
+
+/*mobile and tablet view*/
+   #mobile{display: none;}
+#desktop{display: inline;}
+
+
+@media only all and (max-width:1024px){
+
+.index-nightlife
+	{
+		width: 80%;
+	}
+
+.bottle table
+{
+    margin-left: 30%;
+}
+
+
+
+}
+	@media only all and (max-width:768px){
+   
+    .index-nightlife
+{display: none;   
+    
+}
+    
+
+.wrapper-night
+    {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    
+     
+    .bottle table
+    {
+        width: auto;
+        margin: auto;
+        padding: 0;
+        line-height: 5px;
+		
+    
+    }
+		    
+    .bottle table td
+		{
+font-size: 1.5em;
+			margin-left: 0 auto;
+		}
+
+        #mobile{display:inline;}
+        #desktop{display:none; }
+}
+
+
+.divider
+{
+    display: inline;
+}
+
+
+
+@keyframes slide
+{
+    25%{
+          background:url(../Images/drink-2.jpg) ;
+        
+    }
+      50%{
+          background:url(../Images/drink-3.jpg);
+    }
+      75%{
+          background:url(../Images/drink-4.png);
+    
+      100%{
+          background:url(../Images/drink-1.jpg);
+    }
+    
+}
+   

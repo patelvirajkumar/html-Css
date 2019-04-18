@@ -1,0 +1,42 @@
+.contact-layout
+{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+.contact-layout img
+{
+   width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    
+    
+}
+.contact-layout h2:hover
+
+{   font-size: 30px;
+      transition: font-size 0.5s ease-out;
+    font-weight: 900;
+
+}
+.phone-box{
+    flex: 1;
+    order: 3;
+    
+    
+}
+.address-box
+{
+    flex: 1;
+    margin-left: 50px;
+        order: 2;
+}
+.email-box
+{
+    flex: 1;
+     margin-left: 50px;
+    order: 2;
+}
